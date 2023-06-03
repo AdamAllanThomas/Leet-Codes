@@ -1,4 +1,5 @@
 function twoSum(nums: number[], target: number): number[] {
+  // Would be faster to use a hash map. this is On^2
   const sortedNums: number[] = nums.slice().sort((a, b) => a - b);
   let start = 0,
     end = sortedNums.length - 1;
