@@ -1,5 +1,6 @@
 "use strict";
 function lowestCommonAncestor(root, p, q) {
+    // O(h)
     if (root === null)
         return null;
     else if (p === null || q === null)
