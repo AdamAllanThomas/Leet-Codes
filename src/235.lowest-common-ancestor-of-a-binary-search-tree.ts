@@ -3,6 +3,7 @@ function lowestCommonAncestor(
   p: TreeNode | null,
   q: TreeNode | null
 ): TreeNode | null {
+  // O(h)
   if (root === null) return null;
   else if (p === null || q === null) return root;
   else if (root.val > p.val && root.val > q.val) {
