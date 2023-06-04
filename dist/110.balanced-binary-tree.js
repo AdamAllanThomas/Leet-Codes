@@ -1,4 +1,5 @@
 "use strict";
+`Given a binary tree, determine if it is height-balanced.`;
 function getHeight(root) {
     if (root == null)
         return 0;

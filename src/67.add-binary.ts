@@ -1,3 +1,5 @@
+`Given two binary strings a and b, return their sum as a binary string.`;
+
 function addBinary(a: string, b: string): string {
   // O(n)
   let i = a.length - 1,

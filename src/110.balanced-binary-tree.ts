@@ -1,3 +1,5 @@
+`Given a binary tree, determine if it is height-balanced.`;
+
 function getHeight(root: TreeNode | null): number {
   if (root == null) return 0;
   return Math.max(getHeight(root.left), getHeight(root.right)) + 1;

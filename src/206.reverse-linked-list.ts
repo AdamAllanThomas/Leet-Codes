@@ -1,4 +1,5 @@
-// Given the head of a singly linked list, reverse the list, and return the reversed list.
+`Given the head of a singly linked list, reverse the list, and return the reversed list.`;
+
 function reverseList(head: ListNode | null): ListNode | null {
   // O(n)
   let prev: ListNode | null = null,

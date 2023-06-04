@@ -1,4 +1,5 @@
-//Given the root of a binary tree, invert the tree, and return its root.
+`Given the root of a binary tree, invert the tree, and return its root.`;
+
 function invertTree(root: TreeNode | null): TreeNode | null {
   // O(n)
   if (root == null) {

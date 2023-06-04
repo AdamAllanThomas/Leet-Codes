@@ -1,4 +1,5 @@
 "use strict";
+`Given two binary strings a and b, return their sum as a binary string.`;
 function addBinary(a, b) {
     // O(n)
     let i = a.length - 1, j = b.length - 1, carry = 0, result = "";
