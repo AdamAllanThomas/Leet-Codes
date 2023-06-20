@@ -10,7 +10,8 @@ def longestConsecutive(nums: List[int]) -> int:
     numSet = set(nums)
     for num in nums:
         if num - 1 not in numSet:
-            while num in numSet:
-                num += 1
-            longest = max(longest, num - 1)
+            x = 1
+            while num + x in numSet:
+                x += 1
+            longest = max(longest, x)
     return longest
