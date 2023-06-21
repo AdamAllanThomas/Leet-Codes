@@ -3,7 +3,6 @@
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        # sliding window
         # Time Complexity: O(n)
         # Space Complexity: O(n)
         if not s:
