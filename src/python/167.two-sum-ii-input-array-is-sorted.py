@@ -14,9 +14,9 @@ class Solution:
         right = len(numbers) - 1
         while right > left:
             current_sum = numbers[left] + numbers[right]
-            if target == current_sum:
-                return [left + 1, right + 1]
-            elif target < current_sum:
+            if target < current_sum:
                 right -= 1
             elif target > current_sum:
                 left += 1
+            elif target == current_sum:
+                return [left + 1, right + 1]
